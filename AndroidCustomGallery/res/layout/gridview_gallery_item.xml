@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sams.customcomponents.GalleryFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/baseItemLayout"
+    android:layout_height="119dp" 
+    android:addStatesFromChildren="true"
+    android:foreground="@drawable/gridview_selector">
+    
+    <com.sams.customcomponents.RecyclingImageView 
+        android:id="@+id/iv_thumbnail"
+        android:contentDescription="@string/iv_content_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/transparent_black" />
+
+    <TextView
+        android:id="@+id/tv_folder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_gravity="bottom"
+        android:text="@string/tv_folder" 
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:background="@color/transparent_black"/>
+
+</com.sams.customcomponents.GalleryFrameLayout>

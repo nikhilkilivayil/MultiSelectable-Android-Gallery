@@ -1,0 +1,18 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+   	android:id="@+id/gv_gallery"
+   	android:layout_width="match_parent"
+   	android:layout_height="wrap_content"
+   	android:numColumns="auto_fit"
+   	android:animationCache="true"
+   	android:scrollingCache="true"
+   	android:choiceMode="multipleChoice"
+   	android:stretchMode="columnWidth"
+   	android:gravity="center"
+   	android:horizontalSpacing="1dp"
+   	android:verticalSpacing="1dp"
+   	android:columnWidth="159dp"
+   	android:listSelector="@android:color/transparent"
+   	tools:context=".SamsGallery"
+   	android:drawSelectorOnTop="true">
+</GridView>

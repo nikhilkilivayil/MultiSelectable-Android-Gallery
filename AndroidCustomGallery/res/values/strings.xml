@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gallery</string>
+    <string name="tv_folder">Folder</string>
+    <string name="iv_content_description">Images</string>
+    <string name="tab_images">Images</string>
+    <string name="tab_videos">Videos</string>
+    <string name="title_activity_gallery_child">Gallery</string>
+    <string name="menu_one">1</string>
+    <string name="menu_done">Done</string>
+    <string name="menu_deselect">Deselect</string>
+    <string name="menu_add">Add More</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_preview">PreviewActivity</string>
+ 	<string name="btn_done">Done</string>
+ 	<string name="btn_cancel">Cancel</string>
+</resources>
