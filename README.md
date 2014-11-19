@@ -14,12 +14,11 @@ intent..putExtra(SamsGallery.GALLERY_TYPE, SamsGallery.IMAGES);
 startActivityForResult(intent, REQUEST_GALLERY);
 ```
 
-gallery can be either video or image, and can be opt out by passing gallery type,<br><br>
-for images
+for image gallery,
 ```java
 intent..putExtra(SamsGallery.GALLERY_TYPE, SamsGallery.IMAGES);
 ```
-for videos
+for video gallery,
 ```java
 intent..putExtra(SamsGallery.GALLERY_TYPE, SamsGallery.VIDEOS);
 ```
