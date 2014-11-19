@@ -16,11 +16,11 @@ startActivityForResult(intent, REQUEST_GALLERY);
 
 for image gallery,
 ```java
-intent..putExtra(SamsGallery.GALLERY_TYPE, SamsGallery.IMAGES);
+intent.putExtra(SamsGallery.GALLERY_TYPE, SamsGallery.IMAGES);
 ```
 for video gallery,
 ```java
-intent..putExtra(SamsGallery.GALLERY_TYPE, SamsGallery.VIDEOS);
+intent.putExtra(SamsGallery.GALLERY_TYPE, SamsGallery.VIDEOS);
 ```
 
 and result would be an arraylist of Data objects
